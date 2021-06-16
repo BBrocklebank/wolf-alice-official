@@ -9,7 +9,7 @@
 }
 
 .navbar-custom .navbar-brand {
-    color: rgb(124, 230, 248);
+    color: #00ccff;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -17,7 +17,7 @@
 }
 
 .navbar-custom .nav-item:hover .nav-link {
-    color: rgb(124, 230, 248);
+    color: #00ccff;
 }
 
 .navbar-custom .navbar-text {
@@ -34,6 +34,14 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    z-index: -1;
+}
+
+.logo {
+    height: 70px;
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 20px;
 }
 
 .vertical-align {
@@ -44,6 +52,11 @@
 .vertical-align i {
     font-size: xx-large;
     padding-bottom: 15px;
+    color: #14a8d4;
+}
+
+.vertical-align i:hover {
+    color: #00ccff;
 }
 
 
