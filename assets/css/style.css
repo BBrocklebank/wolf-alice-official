@@ -52,11 +52,42 @@
 .vertical-align i {
     font-size: xx-large;
     padding-bottom: 15px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
     color: #14a8d4;
+} 
+
+.fa-facebook:hover {
+    color: rgb(24, 119, 242);
 }
 
-.vertical-align i:hover {
-    color: #00ccff;
+.fa-instagram:hover {
+    color: rgb(195, 42, 163);
 }
 
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
 
+.fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+/*--------------------------------------------Latest Release Artwork/Info/Links.css*/
+
+.latest-release-artwork {
+    height: 300px;
+    width: 300px;    
+    border: 2px solid #00ccff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.latest-release-info {
+    height: 300px;
+    width: 300px;    
+    border: 2px solid #00ccff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
