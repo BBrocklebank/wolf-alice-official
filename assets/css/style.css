@@ -41,6 +41,22 @@ body {
     line-height: 1.5;
 }
 
+.bio-title > h1 {
+    font-size: 3rem;
+    font-family: 'Benne', serif;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.bio-content > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 /*--------------------------------------------Navbar.css*/
 
 .navbar {
@@ -206,4 +222,25 @@ background-color: rgb(12, 11, 11);
  .footer-logo {
     height: 30px;
     position: relative;
+ }
+
+ /*--------------------------------------------------------------Biography.css*/
+
+ .bio-background {
+     background-color: #f1eded;
+ }
+
+ .bio-img {
+     background: url("../images/walive3.jpg") no-repeat center center scroll;
+     min-height: 300px;
+     background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     padding: 0;
+ }
+
+ .bio-content {
+    border: 2px solid #00ccff;
+    margin-bottom: 5vh;
  }
