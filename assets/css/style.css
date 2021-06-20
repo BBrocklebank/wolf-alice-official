@@ -62,7 +62,7 @@ html {
     font-size: smaller;
 }
 
-/*--------------------------------------------Hero Image/Logo/Social links.css*/
+/*--------------------------------------------Hero Image/Logo/Social Icons.css*/
 
 .hero {
     height: 95vh;
@@ -110,7 +110,7 @@ html {
     color: rgb(255, 0, 0);
 }
 
-/*--------------------------------------------Latest Release Artwork/Info/Links.css*/
+/*--------------------------------------------Latest Release Artwork/Info/Link Icons/Youtube Embed.css*/
 
 .latest-release-title {
     margin-top: 52px;
@@ -139,3 +139,43 @@ html {
     margin-bottom: 100px;
 }
 
+.store-links {
+    position:absolute;
+    bottom: 0px;
+    letter-spacing: 15px;
+}
+
+.store-links i {
+    font-size: xx-large;
+    padding-bottom: 20px;
+    
+}
+
+.fa-spotify, .fa-apple, .fa-amazon, .fa-youtube, .fa-record-vinyl {
+    color: #14a8d4;
+} 
+
+.fa-spotify:hover {
+    color: rgb(30, 215, 96);
+}
+
+.fa-apple:hover {
+    color: rgb(166, 177, 183);
+}
+
+.fa-amazon:hover {
+    color: rgb(0, 119, 193);
+}
+
+.fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+.fa-record-vinyl:hover {
+    color: rgb(0, 0, 0);
+}
+
+.yt-embed-home {
+    width: 100%;
+    height: 550px;
+}
