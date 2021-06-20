@@ -10,10 +10,11 @@ body {
     line-height: 0;
 }
 
-.nav-link, .navbar-brand {
+.nav-link,
+.navbar-brand {
     font-family: 'Benne', serif;
     font-size: 1.2rem;
-    padding: 8px 8px 0px 8px; 
+    padding: 8px 8px 0px 8px;
     letter-spacing: 1px;
 }
 
@@ -21,40 +22,63 @@ body {
     font-size: 1.8rem;
 }
 
-.latest-release-title > h1 {
+.latest-release-title>h1 {
     font-size: 2rem;
     font-family: 'Benne', serif;
     margin-bottom: 0px;
 }
 
-.latest-release-info > h2 {
+.latest-release-info>h2 {
     font-family: 'Volkhov', serif;
     font-weight: 400;
     padding-top: 2vh;
     line-height: 2rem;
 }
 
-.latest-release-info > p {
+.latest-release-info>p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1.5;
 }
 
-.bio-title > h1 {
+.bio-title>h1 {
     font-size: 3rem;
     font-family: 'Benne', serif;
     margin-bottom: 5vh;
     margin-top: 5vh;
 }
 
-.bio-content > p {
+.bio-content>p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.5;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.contact-title>h1 {
+    font-size: 3rem;
+    font-family: 'Benne', serif;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.contact-content>p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.form {
+    line-height: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 0 0
 }
 
 /*--------------------------------------------Navbar.css*/
@@ -113,9 +137,12 @@ body {
     padding-bottom: 15px;
 }
 
-.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
     color: #14a8d4;
-} 
+}
 
 .fa-facebook:hover {
     color: rgb(24, 119, 242);
@@ -156,14 +183,14 @@ body {
 }
 
 .latest-release-info {
-    min-height: 200px; 
+    min-height: 200px;
     border: 2px solid #00ccff;
     margin-top: 44px;
     margin-bottom: 100px;
 }
 
 .store-links {
-    position:absolute;
+    position: absolute;
     bottom: 0px;
     letter-spacing: 15px;
 }
@@ -171,12 +198,16 @@ body {
 .store-links i {
     font-size: xx-large;
     padding-bottom: 20px;
-    
+
 }
 
-.fa-spotify, .fa-apple, .fa-amazon, .fa-youtube, .fa-record-vinyl {
+.fa-spotify,
+.fa-apple,
+.fa-amazon,
+.fa-youtube,
+.fa-record-vinyl {
     color: #14a8d4;
-} 
+}
 
 .fa-spotify:hover {
     color: rgb(30, 215, 96);
@@ -207,8 +238,8 @@ body {
 /*--------------------------------------------------------------Footer.css*/
 
 .footer-container {
-height: 8vh;
-background-color: rgb(12, 11, 11);
+    height: 8vh;
+    background-color: rgb(12, 11, 11);
 }
 
 .footer-socials {
@@ -219,28 +250,54 @@ background-color: rgb(12, 11, 11);
     color: #ffffff;
 }
 
- .footer-logo {
+.footer-logo {
     height: 30px;
     position: relative;
- }
+}
 
- /*--------------------------------------------------------------Biography.css*/
+/*--------------------------------------------------------------Biography.css*/
 
- .bio-background {
-     background-color: #f1eded;
- }
+.bio-background {
+    background-color: #f1eded;
+}
 
- .bio-img {
-     background: url("../images/walive3.jpg") no-repeat center center scroll;
-     min-height: 300px;
-     background-size: cover;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     padding: 0;
- }
+.bio-img {
+    background: url("../images/walive3.jpg") no-repeat center center scroll;
+    min-height: 300px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 0;
+}
 
- .bio-content {
+.bio-content {
     border: 2px solid #00ccff;
     margin-bottom: 5vh;
- }
+    padding: 15px 15px; 
+}
+
+/*--------------------------------------------------------------Contact.css*/
+
+.contact-background {
+    background-color: #f1eded;
+}
+
+.contact-content {
+    border: 2px solid #00ccff;
+    margin-bottom: 5vh;
+}
+
+/*--------------------------------------------------------------Form.css*/
+
+.form {
+    height: 500px;
+}
+
+.form-submit {
+    padding-top: 20px;
+}
+
+label {
+    margin-bottom: 0;
+}
