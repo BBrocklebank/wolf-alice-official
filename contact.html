@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Wolf Alice Contact</title>
 </head>
 
 <body>
 
-     <!-- Navbar -->
-     <header>
+    <!-- Navbar -->
+    <header>
         <nav class="navbar navbar-expand-sm navbar-custom">
             <a href="index.html" class="navbar-brand">WOLF ALICE</a>
 
@@ -46,6 +46,65 @@
             </div>
         </nav>
     </header>
+
+    <!-- Contact Form -->
+    <main>
+        <div class="container">
+            <div class="col-2 offset-5 text-center contact-title">
+                <h1>Contact</h1>
+            </div>
+        </div>
+        <div class="col-8 offset-2 form">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
     <footer>
         <div class="container-fluid footer-container">
             <div class="row h-100">
@@ -63,7 +122,8 @@
                             class="fab fa-youtube" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-4 d-flex justify-content-center footer-logo my-auto">
-                    <a href="index.html"><img class="footer-logo" src="assets/images/walogo.png" alt="Wolf Alice band logo"></a>
+                    <a href="index.html"><img class="footer-logo" src="assets/images/walogo.png"
+                            alt="Wolf Alice band logo"></a>
                 </div>
                 <div class="col-4 ml-auto my-auto footer-signup">
                     <p class="navbar-text my-auto mr-2"><i>Sign up for anouncements and releaseses</i></p>
@@ -72,3 +132,5 @@
             </div>
         </div>
     </footer>
+
+</body>
