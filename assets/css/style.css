@@ -1,19 +1,19 @@
 /*--------------------------------------------Fonts.css*/
-@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Roboto:wght@300;400&family=Volkhov:wght@700&display=swap');
 
 html {
     font-size: 100%;
-    font-family: 'Benne', sans-serif;
+    font-family: sans-serif;
 }
 
 .latest-release-title > h1 {
     font-size: 2rem;
-    font-family: 'Benne', sans-serif;
+    font-family: 'Benne', serif;
     margin-bottom: 0px;
 }
 
 .nav-link, .navbar-brand {
-    font-family: 'Benne', sans-serif;
+    font-family: 'Benne', serif;
     font-size: 1.2rem;
     padding: 8px 8px 0px 8px; 
     letter-spacing: 1px;
@@ -21,6 +21,18 @@ html {
 
 .navbar-brand {
     font-size: 1.8rem;
+}
+
+.latest-release-info > h2 {
+    font-family: 'Volkhov', serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.latest-release-info > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
 }
 
 /*--------------------------------------------Navbar.css*/
@@ -101,7 +113,7 @@ html {
 /*--------------------------------------------Latest Release Artwork/Info/Links.css*/
 
 .latest-release-title {
-    margin-top: 44px;
+    margin-top: 52px;
 }
 
 .latest-release-container {
@@ -126,3 +138,4 @@ html {
     margin-top: 44px;
     margin-bottom: 100px;
 }
+
