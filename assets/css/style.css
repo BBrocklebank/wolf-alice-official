@@ -1,3 +1,22 @@
+/*--------------------------------------------Fonts.css*/
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+html {
+    font-size: 100%;
+    font-family: 'Benne', sans-serif;
+}
+
+.latest-release-title > h1 {
+    font-size: 2rem;
+    font-family: 'Benne', sans-serif;
+}
+
+.nav-link, .navbar-brand {
+    font-family: 'Benne', sans-serif;
+    font-size: 1.2rem;
+    padding: 9px 8px 1px 8px; 
+}
+
 /*--------------------------------------------Navbar.css*/
 
 .navbar {
@@ -39,9 +58,11 @@
 
 .logo {
     height: 70px;
-    position: absolute;
+    position: fixed;
     padding-top: 18px;
     padding-left: 20px;
+    
+    
 }
 
 .vertical-align {
@@ -76,6 +97,10 @@
 
 /*--------------------------------------------Latest Release Artwork/Info/Links.css*/
 
+.latest-release-title {
+    margin-top: 44px;
+}
+
 .latest-release-container {
     background-color: #f1eded;
 }
@@ -83,16 +108,18 @@
 .latest-release-artwork {
     background: url("../images/wabwartwork.jpeg") no-repeat center center scroll;
     background-size: contain;
-    
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     padding: 0;
     min-height: 300px;
-    margin-top: 100px;
+    margin-top: 44px;
     margin-bottom: 100px;
 }
 
 .latest-release-info {
     min-height: 300px; 
     border: 2px solid #00ccff;
-    margin-top: 100px;
+    margin-top: 44px;
     margin-bottom: 100px;
 }
