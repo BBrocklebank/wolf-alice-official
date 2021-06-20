@@ -191,6 +191,10 @@ background-color: rgb(12, 11, 11);
     font-size: 2rem;
 }
 
+.footer-signup p {
+    color: #ffffff;
+}
+
  .footer-logo {
     height: 30px;
     position: relative;
