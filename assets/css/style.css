@@ -301,3 +301,29 @@ body {
 label {
     margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------Music.css*/
+
+.visions-of-a-life-artwork {
+    background: url("../images/wavoalartwork.jpeg") no-repeat center center scroll;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    padding: 0;
+    min-height: 400px;
+    margin-top: 44px;
+    margin-bottom: 100px;
+}
+
+.my-love-is-cool-artwork {
+    background: url("../images/wamlicartwork.jpeg") no-repeat center center scroll;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    padding: 0;
+    min-height: 400px;
+    margin-top: 44px;
+    margin-bottom: 100px;
+}
