@@ -248,6 +248,12 @@ body {
 
 .footer-signup p {
     color: #ffffff;
+    font-size: smaller;
+  
+}
+.footer-signup {
+    color: #ffffff;
+    margin-right: 1rem;
 }
 
 .footer-logo {
