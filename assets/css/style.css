@@ -168,6 +168,7 @@ body {
 
 .latest-release-title {
     margin-top: 52px;
+    margin-bottom: 44px;
 }
 
 .latest-release-container {
@@ -186,15 +187,13 @@ body {
     -moz-background-transition: all 0.5s;
     padding: 0;
     min-height: 400px;
-    margin-top: 44px;
-    margin-bottom: 100px;
+    margin-bottom: 134px;
 }
 
 .latest-release-info {
     min-height: 200px;
     border: 2px solid #00ccff;
-    margin-top: 44px;
-    margin-bottom: 100px;
+    margin-bottom: 134px;
 }
 
 .store-links {
