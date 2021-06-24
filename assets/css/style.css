@@ -191,9 +191,12 @@ body {
 }
 
 .latest-release-info {
-    min-height: 200px;
+    max-height: 400px;
+    max-width: 480px;
     border: 2px solid #00ccff;
     margin-bottom: 134px;
+    text-align: center;
+
 }
 
 .store-links {
