@@ -126,19 +126,19 @@ body {
 }
 
 .logo {
-    height: 3vh;
+    height: 6vh;
     position: relative;
     bottom: 0px;
     margin-top: 75vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     
 }
 
 .vertical-align {
     position: relative;
-    bottom: 0;
     margin-top: 2vh;
 }
 
@@ -366,6 +366,16 @@ label {
 
 @media only screen and (max-width: 1199px) {
 
+    .hero {
+        height: 94vh;
+    }
+
+    .logo {
+        height: 3vh;
+        margin-top: 81vh;
+        margin-bottom: 15px;
+    }
+
 .latest-release-title {
      margin-top: 52px;
     margin-bottom: 0px;
@@ -374,11 +384,11 @@ label {
 .latest-release-info {
     margin-top: 40px;
     max-height: 320px;
-    margin-bottom: 134px;
+    margin-bottom: 17px;
 }
 
 .latest-release-artwork {
-    margin-bottom: 134px;
+    margin-bottom: 15px;
 }
 
   }
