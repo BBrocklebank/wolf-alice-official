@@ -38,8 +38,8 @@ body {
 .latest-release-info>p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.8;
 }
 
 .bio-title>h1 {
@@ -362,15 +362,15 @@ label {
     margin-bottom: 100px;
 }
 
-/*--------------------------------------------------------------Media Queries.css*/
+/*--------------------------------------------------------------Media Queries/Responsive Designs.css*/
 
 @media only screen and (max-width: 1199px) {
 
-    .hero {
+.hero {
         height: 94vh;
     }
 
-    .logo {
+.logo {
         height: 3vh;
         margin-top: 81vh;
         margin-bottom: 15px;
@@ -389,6 +389,22 @@ label {
 
 .latest-release-artwork {
     margin-bottom: 15px;
+}
+
+.latest-release-info>p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.nav-link,
+.navbar-brand {
+    font-size: 1.8rem;
+    padding: 15px 8px 2px 8px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    font-size: 2.6rem;
 }
 
   }
