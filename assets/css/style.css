@@ -364,16 +364,16 @@ label {
 
 /*--------------------------------------------------------------Media Queries/Responsive Designs.css*/
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1200px) {
 
 .hero {
         height: 94vh;
     }
 
 .logo {
-        height: 3vh;
+        height: 4vh;
         margin-top: 81vh;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
 .latest-release-title {
@@ -398,9 +398,32 @@ label {
 
 .nav-link,
 .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 15px 8px 2px 8px;
     letter-spacing: 1px;
 }
 
+.nav-link {
+
+    font-size: 1.5rem;
+    
+    }
+
+    .vertical-align i {
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+    }
+
   }
+
+@media only screen and (max-width: 992px) {
+
+
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+
+
+}
