@@ -108,10 +108,6 @@ body {
     font-size: smaller;
 }
 
-.navbar-toggler-icon {
-    color: #ffffff;
-}
-
 /*--------------------------------------------Hero Image, Logo, Social Icons.css*/
 
 .hero {
@@ -367,7 +363,7 @@ label {
         font-size: 1.5rem;
     }
     .hero {
-        height: 94vh;
+        height: 96vh;
     }
     .logo {
         height: 4vh;
@@ -398,7 +394,7 @@ label {
 
 @media only screen and (max-width: 992px) {
     .hero {
-        height: 92vh;
+        height: 96vh;
     }
     .responsive-title {
         margin-top: 30px;
