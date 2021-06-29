@@ -412,6 +412,16 @@ label {
 }
 
 @media only screen and (max-width: 992px) {
+
+    .navbar{
+        position: fixed;
+        right: 0;
+        left: 0;   
+        border-radius: 0;
+        top: 0;
+        z-index: 10;
+      }
+
     .hero {
         height: 96vh;
     }
@@ -428,6 +438,15 @@ label {
 @media only screen and (max-width: 768px) {}
 
 @media (max-width: 575.98px) {
+
+    .navbar{
+        position: fixed;
+        right: 0;
+        left: 0;   
+        border-radius: 0;
+        top: 0;
+        z-index: 10;
+      }      
 
     .hero {
         height: 94vh;
