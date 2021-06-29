@@ -184,7 +184,7 @@ body {
     background-color: #f1eded;
 }
 
-.release-artwork {
+.blue-weekend-artwork {
     background: url("../images/wabwartwork.jpeg") no-repeat center center scroll;
     background-size: contain;
     -webkit-background-size: contain;
@@ -338,8 +338,7 @@ label {
     -moz-background-transition: all 0.5s;
     padding: 0;
     min-height: 400px;
-    margin-top: 44px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .my-love-is-cool-artwork {
@@ -354,8 +353,7 @@ label {
     -moz-background-transition: all 0.5s;
     padding: 0;
     min-height: 400px;
-    margin-top: 44px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------------Media Queries/Responsive Designs.css*/
