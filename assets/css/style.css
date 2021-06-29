@@ -143,12 +143,12 @@ body {
     margin-bottom: 30px;
 }
 
-.vertical-align {
+.hero-socials {
     position: relative;
-    margin-top: 2vh;
+    margin-top: 0vh;
 }
 
-.vertical-align i {
+.hero-socials i {
     font-size: 3rem;
     padding-bottom: 15px;
 }
@@ -377,7 +377,7 @@ label {
         margin-top: 81vh;
         margin-bottom: 5px;
     }
-    .vertical-align i {
+    .hero-socials i {
         font-size: 2.5rem;
         padding-bottom: 15px;
     }
@@ -385,22 +385,18 @@ label {
         margin-top: 52px;
         margin-bottom: 0px;
     }
-
     .release-info>h2 {
         font-size: 1.7rem;
     }
-
     .responsive-info {
         margin-top: 40px;
         max-height: 320px;
         margin-bottom: 17px;
     }
-
     .margin-padding-remove {
         margin: 0;
         padding: 0;
     }
-
     .responsive-artwork {
         margin-bottom: 15px;
     }
@@ -408,6 +404,13 @@ label {
         font-size: 0.9rem;
         line-height: 1.5;
     }
+
+    .footer-socials {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -425,3 +428,46 @@ label {
 }
 
 @media only screen and (max-width: 768px) {}
+
+@media (max-width: 575.98px) {
+
+    .hero {
+        height: 94vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .hero-socials {
+        margin-top: 80vh;
+    }
+
+    .responsive-title {
+        margin-top: 32px;
+        margin-bottom: 0px;
+    }
+
+
+.border-margin {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.store-links {
+    position: relative;
+    margin-bottom: 0;
+    letter-spacing: 10px;
+}
+
+    .footer-logo {
+        display: none;
+        height: 0;
+    }
+
+    .footer-socials {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+}
