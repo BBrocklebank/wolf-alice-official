@@ -1,6 +1,6 @@
 /*--------------------------------------------Fonts/Related Styling.css*/
-@import url('https://fonts.googleapis.com/css2?family=Benne&family=Roboto:wght@300;400&family=Volkhov:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Roboto:wght@300;400&family=Volkhov:wght@700&display=swap');
 html {
     font-size: 100%;
     font-family: sans-serif;
@@ -10,8 +10,7 @@ body {
     line-height: 0;
 }
 
-.nav-link,
-.navbar-brand {
+.nav-link, .navbar-brand {
     font-family: 'Benne', serif;
     font-size: 1.2rem;
     padding: 8px 8px 0px 8px;
@@ -22,20 +21,20 @@ body {
     font-size: 2rem;
 }
 
-.latest-release-title>h1 {
+.release-title>h1 {
     font-size: 3rem;
     font-family: 'Benne', serif;
     margin-bottom: 0px;
 }
 
-.latest-release-info>h2 {
+.release-info>h2 {
     font-family: 'Volkhov', serif;
     font-weight: 400;
     padding-top: 2vh;
     line-height: 2rem;
 }
 
-.latest-release-info>p {
+.release-info>p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -134,7 +133,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    
 }
 
 .vertical-align {
@@ -147,10 +145,7 @@ body {
     padding-bottom: 15px;
 }
 
-.fa-facebook,
-.fa-instagram,
-.fa-twitter,
-.fa-youtube {
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
     color: #14a8d4;
 }
 
@@ -172,16 +167,16 @@ body {
 
 /*--------------------------------------------Latest Release Artwork/Info, Store Icons, Youtube Embed.css*/
 
-.latest-release-title {
+.release-title {
     margin-top: 52px;
     margin-bottom: 30px;
 }
 
-.latest-release-container {
+.release-container {
     background-color: #f1eded;
 }
 
-.latest-release-artwork {
+.release-artwork {
     background: url("../images/wabwartwork.jpeg") no-repeat center center scroll;
     background-size: contain;
     -webkit-background-size: contain;
@@ -196,13 +191,12 @@ body {
     margin-bottom: 40px;
 }
 
-.latest-release-info {
+.release-info {
     margin-top: 10px;
     max-height: 380px;
     border: 2px solid #00ccff;
     margin-bottom: 40px;
     text-align: center;
-
 }
 
 .store-links {
@@ -214,14 +208,9 @@ body {
 .store-links i {
     font-size: 3rem;
     padding-bottom: 20px;
-
 }
 
-.fa-spotify,
-.fa-apple,
-.fa-amazon,
-.fa-youtube,
-.fa-record-vinyl {
+.fa-spotify, .fa-apple, .fa-amazon, .fa-youtube, .fa-record-vinyl {
     color: #14a8d4;
 }
 
@@ -265,8 +254,8 @@ body {
 .footer-signup p {
     color: #ffffff;
     font-size: smaller;
-  
 }
+
 .footer-signup {
     color: #ffffff;
     margin-right: 1rem;
@@ -365,79 +354,56 @@ label {
 /*--------------------------------------------------------------Media Queries/Responsive Designs.css*/
 
 @media only screen and (max-width: 1200px) {
-
-.hero {
+    .nav-link, .navbar-brand {
+        font-size: 2rem;
+        padding: 15px 8px 2px 8px;
+        letter-spacing: 1px;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+    }
+    .hero {
         height: 94vh;
     }
-
-.logo {
+    .logo {
         height: 4vh;
         margin-top: 81vh;
         margin-bottom: 5px;
     }
-
-.latest-release-title {
-     margin-top: 52px;
-    margin-bottom: 0px;
-}
-    
-.latest-release-info {
-    margin-top: 40px;
-    max-height: 320px;
-    margin-bottom: 17px;
-}
-
-.latest-release-artwork {
-    margin-bottom: 15px;
-}
-
-.latest-release-info>p {
-    font-size: 0.9rem;
-    line-height: 1.5;
-}
-
-.nav-link,
-.navbar-brand {
-    font-size: 2rem;
-    padding: 15px 8px 2px 8px;
-    letter-spacing: 1px;
-}
-
-.nav-link {
-
-    font-size: 1.5rem;
-    
-    }
-
     .vertical-align i {
         font-size: 2.5rem;
         padding-bottom: 15px;
     }
-
-  }
+    .responsive-title {
+        margin-top: 52px;
+        margin-bottom: 0px;
+    }
+    .responsive-info {
+        margin-top: 40px;
+        max-height: 320px;
+        margin-bottom: 17px;
+    }
+    .responsive-artwork {
+        margin-bottom: 15px;
+    }
+    .responsive-info>p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+}
 
 @media only screen and (max-width: 992px) {
-
-   .store-links {
-    margin-bottom: 10px;
-    margin-top: 10px;
-   }
-
-   .latest-release-title {
-    margin-top: 30px;
-    margin-bottom: 23px;
+    .hero {
+        height: 92vh;
+    }
+    .responsive-title {
+        margin-top: 30px;
+        margin-bottom: 23px;
+    }
+    .responsive-store-links {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
 
-.hero {
-
-    height: 92vh;
-
-}
-
-  }
-
-  @media only screen and (max-width: 768px) {
-
-
-
-}
+@media only screen and (max-width: 768px) {}
