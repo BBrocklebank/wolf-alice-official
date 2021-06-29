@@ -108,6 +108,10 @@ body {
     font-size: smaller;
 }
 
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
 /*--------------------------------------------Hero Image, Logo, Social Icons.css*/
 
 .hero {
