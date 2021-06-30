@@ -304,6 +304,10 @@ body {
     padding-left: 5px;
 }
 
+.padding-adjust {
+    padding-top: 0;
+}
+
 /*--------------------------------------------------------------Contact.css*/
 
 .contact-background {
