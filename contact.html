@@ -54,14 +54,15 @@
 
             <div class="d-none d-xl-block ml-auto">
                 <p class="navbar-text my-auto mr-2"><i>Sign up for anouncements and releaseses</i></p>
-                <a href="/login" class="btn btn-outline-warning btn-sm">Sign up</a>
+                <a href="/login" class="btn btn-outline-warning btn-sm" data-toggle="modal"
+                    data-target="#signUpModal">Sign up</a>
             </div>
         </nav>
     </header>
 
-    <!-- Contact Form -->
+    <!-- Contact Form Information -->
     <main>
-        <div class="container release-container bio-container">
+        <div class="container release-container">
             <div class="col-12 text-center contact-title responsive-title">
                 <h1>Contact</h1>
             </div>
@@ -83,6 +84,8 @@
                     Wolf Alice Team
                 </p>
             </div>
+
+            <!-- Contact Form -->
 
             <div class="col-8 offset-2 form">
                 <form class="row g-3">
@@ -155,12 +158,56 @@
                 </div>
                 <div class="d-none d-xl-block ml-auto my-auto footer-signup">
                     <p class="navbar-text mr-2"><i>Sign up for anouncements and releaseses</i></p>
-                    <a href="/login" class="btn btn-outline-warning btn-sm">Sign up</a>
+                    <a href="/login" class="btn btn-outline-warning btn-sm" data-toggle="modal"
+                        data-target="#signUpModal">Sign up</a>
                 </div>
             </div>
         </div>
     </footer>
 
+     <!-- Modal -->
+
+     <div class="modal" tabindex="-1" id="signUpModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up for news and announcements!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="col-12 form">
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputFname4" class="form-label">First Name</label>
+                                <input type="name" class="form-control" id="inputFname4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputSname4" class="form-label">Surname</label>
+                                <input type="text" class="form-control" id="inputSname4">
+                            </div>
+                            <div class="col-md-12 modal-form-privacy">
+                                <label for="checkbox" class="form-label">I agree to the Privacy Policy.*
+                                   </label>
+                                <input type="checkbox" class="" id="checkbox">
+                            </div>
+                            <div class="col-10 form-submit">
+                                <button type="submit" class="btn btn-warning">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

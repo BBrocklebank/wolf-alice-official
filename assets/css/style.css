@@ -181,10 +181,6 @@ body {
     margin-bottom: 30px;
 }
 
-.release-container {
-    background-color: #f1eded;
-}
-
 .blue-weekend-artwork {
     background: url("../images/wabwartwork.jpeg") no-repeat center center scroll;
     background-size: contain;
@@ -300,7 +296,8 @@ body {
     padding: 5px 5px;
 }
 
-.bio-container {
+.release-container {
+    background-color: #f1eded;
     padding-top: 10px;
     padding-bottom: 5px;
     padding-right: 5px;
