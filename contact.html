@@ -89,38 +89,46 @@
 
             <div class="col-8 offset-2 form">
                 <form class="row g-3">
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="inputFirstname">
                         <label for="inputFname4" class="form-label">First Name</label>
-                        <input type="name" class="form-control" id="inputFname4">
+                        <input type="text" class="form-control" id="inputFname4"
+                            aria-labelledby="inputFirstname">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="inputSecondname">
                         <label for="inputSname4" class="form-label">Surname</label>
-                        <input type="text" class="form-control" id="inputSname4">
+                        <input type="text" class="form-control" id="inputSname4"
+                            aria-labelledby="inputSecondname">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="inputPhonenumber">
                         <label for="inputNumber4" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="inputNumber4">
+                        <input type="number" class="form-control" id="inputNumber4"
+                           aria-labelledby="inputPhonenumber">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12" id="inputEmail">
                         <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <input type="email" class="form-control" id="inputEmail4"
+                            aria-labelledby="inputEmail" placeholder="Enter email">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12" id="address1">
                         <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"
+                           aria-labelledby="address1">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12" id="address2">
                         <label for="inputAddress2" class="form-label">Address 2</label>
                         <input type="text" class="form-control" id="inputAddress2"
-                            placeholder="Apartment, studio, or floor">
+                            placeholder="Apartment, studio, or floor"
+                            aria-labelledby="address2">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="cityInput">
                         <label for="inputCity" class="form-label">City</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <input type="text" class="form-control" id="inputCity"
+                        aria-labelledby="cityInput">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2" id="inputPostcode">
                         <label for="inputPost" class="form-label">Post Code</label>
-                        <input type="text" class="form-control" id="inputPost">
+                        <input type="text" class="form-control" id="inputPost"
+                        aria-labelledby="inputPostcode">
                     </div>
                     <div class="col-md-12">
                         <label for="Message" class="form-label">Message</label>
@@ -140,21 +148,21 @@
         <div class="container-fluid footer-container">
             <div class="row h-100">
                 <div class="col-xl-4 col-sm-6 col-12 d-flex justify-content-center align-middle footer-socials my-auto">
-                    <a href="http://www.facebook.com/wolfalicemusic" target="blank_" alt="Link to Facebook page"><i
+                    <a href="http://www.facebook.com/wolfalicemusic" target="blank_" title="Link to Facebook page"><i
                             class="fab fa-facebook" aria-hidden="true"></i></a>
                     <hr>
-                    <a href="http://www.instagram.com/wolfaliceband" target="blank_" alt="Link to Instagram page"><i
+                    <a href="http://www.instagram.com/wolfaliceband" target="blank_" title="Link to Instagram page"><i
                             class="fab fa-instagram" aria-hidden="true"></i></a>
                     <hr>
-                    <a href="http://www.twitter.com/wolfalicemusic" target="blank_" alt="Link to Twitter account"><i
+                    <a href="http://www.twitter.com/wolfalicemusic" target="blank_" title="Link to Twitter account"><i
                             class="fab fa-twitter" aria-hidden="true"></i></a>
                     <hr>
-                    <a href="http://www.youtube.com/wolfalicevideos" target="blank_" alt="Link to Youtube profile"><i
+                    <a href="http://www.youtube.com/wolfalicevideos" target="blank_" title="Link to Youtube profile"><i
                             class="fab fa-youtube" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-sm-6 col-xl-4 d-flex justify-content-center footer-logo my-auto">
                     <a href="index.html"><img class="footer-logo" src="assets/images/walogo.png"
-                            alt="Wolf Alice band logo"></a>
+                            title="Wolf Alice band logo"></a>
                 </div>
                 <div class="d-none d-xl-block ml-auto my-auto footer-signup">
                     <p class="navbar-text mr-2"><i>Sign up for anouncements and releaseses</i></p>
@@ -165,9 +173,9 @@
         </div>
     </footer>
 
-     <!-- Modal -->
+      <!-- Modal -->
 
-     <div class="modal" tabindex="-1" id="signUpModal">
+      <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -180,22 +188,26 @@
                 <div class="modal-body">
                     <div class="col-12 form">
                         <form class="row g-3">
-                            <div class="col-md-12">
-                                <label for="inputEmail4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" aria-describedby="emailHelp" placeholder="Enter email">
+                            <div class="col-md-12" id="inputEmail1">
+                                <label for="inputEmail5" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail5"
+                                    aria-labelledby="inputEmail1" placeholder="Enter email">
                             </div>
-                            <div class="col-md-6">
-                                <label for="inputFname4" class="form-label">First Name</label>
-                                <input type="name" class="form-control" id="inputFname4">
+                            <div class="col-md-6" id="inputFirstname1">
+                                <label for="inputFname5" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="inputFname5"
+                                    aria-labelledby="inputFirstname1">
                             </div>
-                            <div class="col-md-6">
-                                <label for="inputSname4" class="form-label">Surname</label>
-                                <input type="text" class="form-control" id="inputSname4">
+                            <div class="col-md-6" id="inputSecondname1">
+                                <label for="inputSname5" class="form-label">Surname</label>
+                                <input type="text" class="form-control" id="inputSname5"
+                                    aria-labelledby="inputSecondname1">
                             </div>
-                            <div class="col-md-12 modal-form-privacy">
+                            <div class="col-md-12 modal-form-privacy" id="privacyCheckbox">
                                 <label for="checkbox" class="form-label">I agree to the Privacy Policy.*
-                                   </label>
-                                <input type="checkbox" class="" id="checkbox">
+                                </label>
+                                <input type="checkbox" class="" id="checkbox"
+                                    aria-labelledby="privacyCheckbox">
                             </div>
                             <div class="col-10 form-submit">
                                 <button type="submit" class="btn btn-warning">Submit</button>
