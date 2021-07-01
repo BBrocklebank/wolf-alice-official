@@ -207,6 +207,7 @@ body {
     position: relative;
     margin-bottom: 30px;
     letter-spacing: 30px;
+    margin-left: 2vw;
 }
 
 .store-links i {
@@ -371,6 +372,10 @@ label {
 
 /*--------------------------------------------------------------Media Queries/Responsive Designs.css*/
 
+@media only screen and (max-width: 1400px) {
+
+}
+
 @media only screen and (max-width: 1200px) {
     .nav-link, .navbar-brand {
         font-size: 2rem;
@@ -379,15 +384,12 @@ label {
     }
     .nav-link {
         font-size: 1.5rem;
-    }
-    .hero {
-        height: 96vh;
-    }
+    } 
     .logo {
-        height: 4vh;
-        margin-top: 84vh;
+        height: 5vh;
+        margin-top: 77vh;
         margin-bottom: 5px;
-    }
+    } 
     .hero-socials i {
         font-size: 3rem;
         padding-bottom: 15px;
@@ -399,32 +401,27 @@ label {
     .responsive-title {
         margin-top: 52px;
         margin-bottom: 0px;
-    }
+    } 
     .release-info>h2 {
-        font-size: 1.7rem;
-    }
+        font-size: 1.9rem;
+    } 
     .responsive-info {
-        margin-top: 40px;
-        max-height: 320px;
+        margin-top: 37px;
+        max-height: 327px;
         margin-bottom: 17px;
-    }
+    } 
     .margin-padding-remove {
         margin: 0;
         padding: 0;
-    }
+    } 
     .responsive-artwork {
         margin-bottom: 15px;
     }
     .responsive-info>p {
         font-size: 0.9rem;
         line-height: 1.5;
-    }
-    .footer-socials {
-        padding-top: 5px;
-        padding-bottom: 0px;
-        padding-left: 40px;
-    }
-}
+    } 
+} 
 
 @media only screen and (max-width: 992px) {
     .navbar {
@@ -486,9 +483,11 @@ label {
         margin-top: 18px;
         margin-bottom: 0px;
     }
+
     .border-margin {
         margin-top: 0;
         margin-bottom: 10px;
+
     }
     .store-links {
         position: relative;
@@ -510,4 +509,13 @@ label {
     .contact-title>h1 {
         margin-top: 90px;
     }
+    .row {
+        margin-right: 0px;
+    }
+
+    .release-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
