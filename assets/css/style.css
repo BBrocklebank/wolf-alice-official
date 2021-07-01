@@ -289,6 +289,7 @@ body {
     -o-background-transition: all 0.5s;
     -moz-background-transition: all 0.5s;
     padding: 0;
+    border-radius: 1px;
 }
 
 .bio-content {
@@ -395,9 +396,6 @@ label {
         padding-bottom: 15px;
         padding-top: 20px;
     }
-    .release-container {
-        padding-top: 0;
-    }
     .responsive-title {
         margin-top: 52px;
         margin-bottom: 0px;
@@ -480,13 +478,14 @@ label {
         margin-top: 90vh;
     }
     .responsive-title {
-        margin-top: 18px;
+        margin-top: 30px;
         margin-bottom: 0px;
     }
 
     .border-margin {
         margin-top: 0;
         margin-bottom: 10px;
+        border:0px
 
     }
     .store-links {
@@ -516,6 +515,15 @@ label {
     .release-container {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .bio-content {
+        border: 0;
+    }
+
+    .store-links i {
+        font-size: 2.5rem;
+        padding-bottom: 20px;
     }
 
 }
