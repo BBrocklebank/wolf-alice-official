@@ -12,6 +12,9 @@ The sites main purpose is to provide a hub of content/information to new and ret
 <br>   <br>
 Wolf Alice official’s target audience is diverse in sense of background, age and qualifications, as music can be incredibly subjective. Though it is expected that the majority user bass will have an age range of between 15 and 45 years old. It can be inferred from this that both mobile and desktop responsiveness is essential. It also requires all content to be family friendly. 
 
+<br>
+<br>
+
 ![Mockup of Wolf Alice Official](assets/images/site-mockup.png) 
 
 ## User Experience
@@ -499,5 +502,28 @@ ID | Filename.type | Description | Size | Location | Used
 
 [meta-data descriptions](https://yoast.com/meta-descriptions/)
 
+### Content 
+
+[Visions of a Life info](https://en.wikipedia.org/wiki/Visions_of_a_Life)
+
+[Blue weekend info](https://en.wikipedia.org/wiki/Blue_Weekend)
+
+[My Love Is Cool info](https://en.wikipedia.org/wiki/My_Love_Is_Cool)
+
+[Biography](https://www.rcarecords.com/artist/wolf-alice/)
+
+[Guidance on use of fonts and simplistic design](https://www.30degreesnorth.com/blog/5-website-font-mistakes-you-dont-want-to-make)
+
+### Media
+
+[Hero images, logo, artwork (from press pack)](https://www.rcarecords.com/artist/wolf-alice/)
 
 
+[Live image of band 1](https://commons.wikimedia.org/wiki/File:Wolf_Alice_(26563855519).jpg)
+
+[Live image of band 2](https://www.flickr.com/photos/jeffkunz/45616040465/in/photolist-2cuW8Ai-2gNCWmq-292x9Fy-2jpKUr7-2cMGBfb-2cMGAPw-m1pU9Z-28DNKRo-2cuW7XK-m1qvUe-Ysfj2T-m1pV68-m1rpPC-Zpd7sN-2a2iu5g-2a2iwRi-Zpd7Vm-m1qwhi-CnjKWq-2a2ixzx-YsfjEr-Zpd6XQ-R4Sguj-CnjLZ7-2kfVA3g-5X9qN7-Ysfjsx-CnjL99-yNZt53-Zpd7hC-2ajhLnL-KEBQBu-Gtp6yX-29dT3yX-2kA44GS-bq8twV-YsfjD4-Zpd7Ly-yNZq7u-Ysfjhc-Fo4SvF-CnjLSo-Zpd6wQ-CnjLjQ-uWwJC6-2jovQxr-2gNCWjB-bGs3sF-oCNatx-CnjLvG)
+
+## Ackhnowledgements
+ - Patrick Justus 
+ - Harlow College 
+ - Code Institute 
