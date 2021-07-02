@@ -409,6 +409,8 @@ After referring to the outcome and suggestions meta titles were added and these 
  - On some mobile devices text can appear slightly off centre to the left
 <br>
  - On Microsoft edge (intermittently) a thin white line appears between the footer and youtube embed 
+  <br>
+- On safari on certain phones, hero image doesn't resize and it zoomed
 
 ## Deployment
 
