@@ -7,9 +7,9 @@
 #### Project Goals/Target Audience
 <hr>
 Wolf Alice Official is the bands most comprehensive web presence in terms of content and information. It is designed to be responsive and accessible on a wide variety of devices, ensuring it is easy to explore and navigate for all users. Wolf Alice Official is useful for fans both new and old to discover the latest releases, band history, upcoming shows, merchandise and discography.
-
+<br>  <br>
 The sites main purpose is to provide a hub of content/information to new and returning fans of the band. This is with the aim of increasing listeners across streaming services and producing higher sales of tickers/merchandise as a result. Second to this the site also provides clickthrough to social media, where users will be further exposed to the bands content/marketing. Signup for direct inbox updates and announcements is also provided to further submerse users in content. 
-
+<br>   <br>
 Wolf Alice official’s target audience is diverse in sense of background, age and qualifications, as music can be incredibly subjective. Though it is expected that the majority user bass will have an age range of between 15 and 45 years old. It can be inferred from this that both mobile and desktop responsiveness is essential. It also requires all content to be family friendly. 
 
 ![Mockup of Wolf Alice Official](assets/images/site-mockup.png) 
@@ -21,43 +21,43 @@ Wolf Alice official’s target audience is diverse in sense of background, age a
 * First time Visitor Goals
 
   - As a First Time Visitor, I want to easily ascertain the main purpose of the site and learn more about the band and their history. 
-
+  <br>
   - As a First Time Visitor, I want to easily navigate the entirety of the site to find/discover content.
-
+      <br>
   - As a First Time Visitor, I want to look for their latest releases and where/how I can listen to them.
-
+  <br>
   - As a First Time Visitor, I wish to see exciting images and video to inform me on the bands visuals and aesthetic/style.
-
+  <br>
   - As a First Time Visitor, I wish to discover their social media channels, to gain further insight into the band themselves and the content they publish.
-
+  <br>
 * Returning Visitor Goals
-
+  <br>
   - As a returning visitor I wish to find information about where the band are playing live and if I can attend.
-
+  <br>
   - As a returning visitor I want to know if there are any merchandise I can purchase and from where. 
-
+  <br>
   - As a returning visitor I wish to gain a more in-depth history of the band and how they began their journey.
-
+  <br>
 * Frequent User Goals
-
+  <br>
   - As a frequent user, I want to check to see if there are any new releases or announcements.
-
+  <br>
   - As a frequent, I wish to know how to book the band for private functions and/or public events.
-
+  <br>
  * Business/Developer Goals
-
+  <br>
    - As a business, I want new users to discover the latest release from the band.
-
+  <br>
    - As a business, I want new users to clickthrough to streaming services and social media.
-
+  <br>
    - As a business, I want to be contacted about new bookings and potential events.
-
+  <br>
    - As a business I want returning users to purchase tour tickets.
-
+  <br>
    - As a business I want returning users to purchase merchandise.
-
+  <br>
    - As a business I want returning users to signup for announcements and releases.
-
+  <br>
    - As a business I want users to seek out the bands discography and listen.
 
 ## Design 
@@ -223,54 +223,54 @@ Unison across the site and fully responsive the footer provides social links on 
 
 - VS code 
   
-  Vs Code was used as the main editor for the project
-
+    - Vs Code was used as the main editor for the project
+  <br>
 - Bootstrap 4.2.1
   
-  Bootstrap was used to assist in the layout, styling and responsiveness of the site
-
+    - Bootstrap was used to assist in the layout, styling and responsiveness of the site
+  <br>
 - Git
   
-  Git was used for version control by utilising the Gitpod terminal to commit and push to Github
-
+    - Git was used for version control by utilising the Gitpod terminal to commit and push to Github
+  <br>
 - Gitpod 
   
-  This was used a secondary editor when away from the main workstation
-
+    - This was used a secondary editor when away from the main workstation
+  <br>
 - GitHub
-  Used to store the projects code after being pushed from git
-
+    - Used to store the projects code after being pushed from git
+  <br>
 - Github desktop
   
-  Used to clone repositories from Github to local machine to work on
-
+    - Used to clone repositories from Github to local machine to work on
+  <br>
 - Balsamiq
   
-  Used to create wireframes and plan design of site
-
+    - Used to create wireframes and plan design of site
+  <br>
 - Fontawesome 5.15.3
   
-  Used to provide icons across the site 
-
+    - Used to provide icons across the site 
+  <br>
 - Google Fonts
   
-  Used to provide stylish and fitting fonts to the site
-
+    - Used to provide stylish and fitting fonts to the site
+  <br>
 - jQuery
   
-  Provided with Bootstrap to enable certain responsive elements such as navbar 
-
+    - Provided with Bootstrap to enable certain responsive elements such as navbar 
+  <br>
 - Jsdelivr
   
-  Provided with Bootstrap to enable certain responsive elements
-
+    - Provided with Bootstrap to enable certain responsive elements
+  <br>
 - Popper.js
   
-  Provided with Bootstrap to enable certain responsive elements
-
+    - Provided with Bootstrap to enable certain responsive elements
+  <br>
 - Tiny jpeg
   
-  Enabled compression of images to sizes more adequate for use on site
+    - Enabled compression of images to sizes more adequate for use on site
 
 ## Testing
 
@@ -287,3 +287,217 @@ The entire site has been validated using the W3C Markup and W3C CSS validators.
 [Contact](assets/images/contact-val.png)
 
 [CSS](assets/images/css-val.png)
+
+### Testing User Stories from User Experience (UX) Section 
+
+First Time Visitor Goals
+
+- As a First Time Visitor, I want to easily ascertain the main purpose of the site and learn more about the band and their history. 
+
+  - Upon entering the site users will immediately see the navigation bar, which clearly depicts the bands logo and pages that can be visited, including biography and music. 
+
+  - The hero image and logo makes it very clear the site is about Wolf Alice
+
+  - Following the navigation queues or scrolling with both lead to the discovery of more content 
+  <br>
+- As a First Time Visitor, I want to easily navigate the entirety of the site to find/discover content.
+  
+
+  - The navigation bar is simplistic and intuitive to use, each new page offers content to discover.
+  <br>
+- As a First Time Visitor, I want to look for their latest releases and where/how I can listen to them.
+
+  - Upon entering the site, the logo can be clicked or the user can scroll, revealing the latest release and links to streaming platforms. 
+  <br>
+- As a First Time Visitor, I wish to see exciting images and video to inform me on the bands visuals and aesthetic/style.
+
+  - The hero image is eye catching and intriguing from the moment users enter the site.
+
+  - Video is embedded into the homepage and album artwork is placed in such a way that it is unavoidable on the homepage. 
+
+  - The music page has further artwork to view and is of a large size. 
+  <br>
+- As a First Time Visitor, I wish to discover their social media channels, to gain further insight into the band themselves and the content they publish.
+
+  - Social icons can be found on the hero image upon entering the site and also in the footer on every page. Allowing users to jump right to socials at a moments notice.
+
+Returning Visitor Goals
+  <br>
+- As a returning visitor I wish to find information about where the band are playing live and if I can attend. 
+  - The navigation bar has a clear link labelled “Live”, which will show users every available date and location the band are playing. 
+  <br>
+- As a returning visitor I want to know if there are any merchandise I can purchase and from where. 
+  - The navigation bar has a clear link labelled “Merch” which will take them to the official store where all merchandise can be found. 
+  <br>
+- As a returning visitor I wish to gain a more in-depth history of the band and how they began their journey.
+  - The biography page can be found in the navbar and will lead the user to a descriptive history of the band beginnings. 
+
+Frequent User Goals
+
+- As a frequent user, I want to check to see if there are any new releases or announcements.
+  - New releases can be found directly on the homepage, a signup options is available in the navbar and footer on large devices, alternatively in the navbar on small devices. 
+    <br>
+- As a frequent user, I wish to know how to book the band for private functions and/or public events.
+  - The contact page found in the navbar describes reasonable events and functions the band can be booked for, suppling a contact form to get in touch. 
+
+Business/Developer Goals
+
+- As a business, I want new users to discover the latest release from the band.
+  - Upon entering the homepage the first thing visible once scrolling is the latest release section with  links and a youtube embed. 
+                                                                    <br>          
+- As a business, I want new users to clickthrough to streaming services and social media.
+  - Streaming service icons and social icons are strategically placed on the site to almost never be off screen, reinforcing the route to clickthrough. 
+  <br>
+- As a business, I want to be contacted about new bookings and potential events.
+  - Users can get in contact via the contact page and form provided, anyone can contact. 
+  <br>
+- As a business I want returning users to purchase tour tickets.
+
+  - Linking from the navbar to the live section is seamless and easy.
+  <br>
+- As a business I want returning users to purchase merchandise.
+  - The merch section remains placed at the top of the page in the navbar and links directly to the official store. The vinyl icon also links to the store, increasing chances for sales. 
+  <br>
+- As a business I want returning users to signup for announcements and releases.
+  - Users may sign up on their first or last visit but the signup option is always clearly visible large devices and on small devices is included in the navbar. 
+  <br>
+ - As a business I want users to seek out the bands discography and listen.  
+   - The discography is easily accessible and contains links for each specific release to all relevant streaming platforms.  
+  
+
+## Further Testing 
+
+### Black Box
+
+Test No | Test Feature | Expected Result | Actual | Pass/Fail
+------------ | ------------- | ------------ | ------------ | -------------
+1 | Launch Site | Site loads homepage | PASS | Slight flicker, second load smooth (cached)|
+2 | Check Navbar styling | Navbar styled correctly  | PASS | 
+3 | Homepage images | Images in place | PASS | 
+4 | Font, size and style | Styled correctly | PASS | 
+5 | Intra-link | Links to latest release | PASS | 
+6 | All site navbar links | All links function as expected | PASS | 
+7 | Social icon links | Link to social platforms | PASS | 
+8 | Streaming icon links | Link to streaming platforms | PASS | 
+9 | Signup modal | Lauches onto page | PASS | 
+10 | Contact Form | Loads as designed | PASS | 
+
+### Browsers
+ - The site was tested on Google Chrome, Edge, Safari and Mozilla Firefox
+Lighthouse
+
+### Lighthouse
+ - Testing using lighthouse took place in chrome with these results link
+After referring to the outcome and suggestions meta titles were added and these new improved results occurred link 
+
+[Lighthouse Test 1](assets/images/lighthouse1.png)
+
+[Lighthouse Test 2](assets/images/lighthouse2.png)
+
+
+### Devices
+ - The site was tested on a variety of devices including a MacBook Pro, Dell Desktop, iPhone 11, iPad and Samsung Galaxy S20.
+  
+### Friends/Family Users
+ - Family members and friends took part in testing using the site and informed of any bugs encountered
+
+### Known Bugs
+
+ - On some mobile devices text can appear slightly off centre to the left
+<br>
+ - On Microsoft edge (intermittently) a thin white line appears between the footer and youtube embed 
+
+## Deployment
+
+### Github Pages
+
+1. Log in to GitHub and locate the GitHub Repository
+At the top of the Repository, locate the "Settings" Button on the option menu
+<br>
+2. Scroll down the Settings page until you locate the "GitHub Pages" Section
+<br>
+3. Under "Source", click the dropdown called "None" and select "Master Branch"
+<br>
+4. Press save.
+   <br>
+5. Click the link now displayed.
+
+### Forking the GitHub Repository 
+
+Forking the Github repository makes a copy of the original repository on our GitHub account. We can then view and/or make changes without affecting the original repository.
+
+1. Log in to GitHub and locate the GitHub Repository
+<br>
+2. At the top of the Repository locate the "Fork" Button
+   <br>
+3. You should now have a copy of the original repository in your GitHub account
+
+### Clone to desktop 
+
+1. Donwload Github Desktop
+   <br>
+2. Log in to GitHub and locate the GitHub Repository
+   <br>
+3. Under the repository name, click "Clone to dektop".
+   <br>
+4. Github dektop will ask you if you want to clone, click "Yes"
+   <br>
+5. Click "Open in editor"
+   <br>
+6. You have now cloned the project to your local machine
+
+### Gitpod Clone
+
+1. Download the gitpod chrome extension 
+   <br>
+2. Locate the repository on Github 
+   <br>
+3. On the righthand side of the menu bar choose "Gitpod"
+   <br>
+4. Login to Gitpod using your Github account or make a new Gitpod account
+   <br>
+5. You have now opened a new workspace within gitpod
+   <br>
+6. The repository is clones to your Github 
+
+ID | Filename.type | Description | Size | Location | Used
+------------ | ------------- | ------------ | ------------ | ------------- | ------------
+1 | index.html | Homepage | 14KB | Root | -
+2 | biography.html | Biography Page | 15KB | Root | -
+3 | music.html | Music Page | 19KB | Root | -
+4 | contact.html | Contact Page | 12KB | Root | -
+5 | wavoalartwork.jpeg | artwork | 12KB | images | music.html
+6 | wamlicartwork.jpeg | artwork | 34KB | images | music.html
+7 | wamlicartwork.jpeg | artwork | 34KB | images | music.html
+8 | wabwartwork.jpeg | artwork | 303KB | images | index.html/music.html
+9 | wahero2.jpg | hero | 726KB | images | index.html
+10 | walogo.png | logo | 46KB | images | All
+11 | walive3.jpg | image | 364KB | images | biography.html
+
+## Credits
+
+### Code
+
+[Font Size Control](https://codepen.io/thecodercoder/pen/YzKgLYZ)
+
+[Bootstrap4 Used throughout](https://getbootstrap.com/)
+
+[Bootstrap navbar preset colour override](https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c)
+
+[Youtube embed](https://www.w3schools.com/html/html_youtube.asp)
+
+[Alt text for background images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+
+[How to use aria-labelledby](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
+
+
+[Img Center](https://stackoverflow.com/questions/10879955/how-to-align-an-image-dead-center-with-bootstrap)
+
+[iframe boarder css](https://www.tagindex.net/css/frame/border.html)
+
+[Correct form input fields](https://stackoverflow.com/questions/7497765/html5-valid-form-input-fields)
+
+[meta-data descriptions](https://yoast.com/meta-descriptions/)
+
+
+
