@@ -185,3 +185,105 @@ Providing insight into the bands history the page is adorned with a large attent
 
 This page provides essential service to the band allowing potential clients to contact them directly about bookings for shows and other events.
 
+### Footer
+
+[Footer](assets/images/footer.png)
+
+Unison across the site and fully responsive the footer provides social links on all devices and at larger sizes a homepage link and sign up button for announcements and releases.
+
+* Additional Features 
+
+  - Site is fully responsive
+
+  - Contains interactive elements
+
+  - Video media - youtube
+
+  - Inter-page links for navigation
+
+  - Signup modal
+
+  - Links to external platforms
+
+ - Features Left To Implement
+
+    - Smooth link transition on homepage from hero image to release section
+
+   - Page dedicated to video content of the band on youtube
+
+   - Interactive hover buttons classes
+
+## Technologies Used
+
+- HTML
+- CSS
+- Javascript
+
+## Frameworks, Libraries & Programs Used
+
+- VS code 
+  
+  Vs Code was used as the main editor for the project
+
+- Bootstrap 4.2.1
+  
+  Bootstrap was used to assist in the layout, styling and responsiveness of the site
+
+- Git
+  
+  Git was used for version control by utilising the Gitpod terminal to commit and push to Github
+
+- Gitpod 
+  
+  This was used a secondary editor when away from the main workstation
+
+- GitHub
+  Used to store the projects code after being pushed from git
+
+- Github desktop
+  
+  Used to clone repositories from Github to local machine to work on
+
+- Balsamiq
+  
+  Used to create wireframes and plan design of site
+
+- Fontawesome 5.15.3
+  
+  Used to provide icons across the site 
+
+- Google Fonts
+  
+  Used to provide stylish and fitting fonts to the site
+
+- jQuery
+  
+  Provided with Bootstrap to enable certain responsive elements such as navbar 
+
+- Jsdelivr
+  
+  Provided with Bootstrap to enable certain responsive elements
+
+- Popper.js
+  
+  Provided with Bootstrap to enable certain responsive elements
+
+- Tiny jpeg
+  
+  Enabled compression of images to sizes more adequate for use on site
+
+## Testing
+
+### Validator Testing 
+
+The entire site has been validated using the W3C Markup and W3C CSS validators. 
+
+[Homepage](assets/images/homepage-val.png)
+
+[Music](assets/images/music-val.png)
+
+[Biography](assets/images/bio-val.png)
+
+[Contact](assets/images/contact-val.png)
+
+[CSS](assets/images/css-val.png)
