@@ -15,7 +15,7 @@ Wolf Alice official’s target audience is diverse in sense of background, age a
 <br>
 <br>
 
-![Mockup of Wolf Alice Official](assets/images/site-mockup.png) 
+![Mockup of Wolf Alice Official](assets/readme/site-mockup.png) 
 
 ## User Experience
 
@@ -69,35 +69,35 @@ Wolf Alice official’s target audience is diverse in sense of background, age a
 
 The following wireframes were constructed within Balsamiq(link this) during the Scope Plane section of the design and planning stage for this project. They represent an early design concept that has largely been kept to through to final product. However do note that they vary slightly from the final design, this is due to practical considerations that arose during the surface plane stage.
 
-[Homepage Dektop](assets/images/homepage-dektop.png)
+[Homepage Dektop](assets/wireframes/homepage-dektop.png)
 
-[Homepage Tablet](assets/images/homepage-tablet.png)
+[Homepage Tablet](assets/wireframes/homepage-tablet.png)
 
-[Homepage Phone](assets/images/homepage-phone.png)
+[Homepage Phone](assets/wireframes/homepage-phone.png)
 
-[Biography Dektop](assets/images/bio-dektop.png)
+[Biography Dektop](assets/wireframes/bio-dektop.png)
 
-[Biography Tablet](assets/images/bio-tablet.png)
+[Biography Tablet](assets/wireframes/bio-tablet.png)
 
-[Biography Phone](assets/images/bio-phone.png)
+[Biography Phone](assets/wireframes/bio-phone.png)
 
-[Music Dektop](assets/images/music-dektop.png)
+[Music Dektop](assets/wireframes/music-dektop.png)
 
-[Music tablet](assets/images/music-tablet.png)
+[Music tablet](assets/wireframes/music-tablet.png)
 
-[Music Phone](assets/images/music-phone.png)
+[Music Phone](assets/wireframes/music-phone.png)
 
-[Contact Dektop](assets/images/contact-dektop.png)
+[Contact Dektop](assets/wireframes/contact-dektop.png)
 
-[Contact Tablet](assets/images/contact-tablet.png)
+[Contact Tablet](assets/wireframes/contact-tablet.png)
 
-[Contact Phone](assets/images/contact-phone.png)
+[Contact Phone](assets/wireframes/contact-phone.png)
 
 ### Navigation Map 
 
 This navigation map shows final navigational paths through the site. There are pages listed here that are external links only, this is due to time constraints on the project. 
 
-[Site Map](assets/images/site-map.png)
+![Site Map](assets/readme/site-map.png)
 
 ### Colours 
 
@@ -148,7 +148,7 @@ Wolf Alice’s latest single has been embedded via Youtube into the homepage, di
 
 ### Navigation Bar
 
-[Navbar](assets/images/navbar.png)
+![Navbar](assets/readme/navbar.png)
 
 Featured on all pages of the site the navigation bar provides links to the Homepage, Biography page, Music page and Contact page. It also provides external links to tour dates and merchandise. 
 
@@ -158,13 +158,13 @@ The navigation bar is fully responsive and at larger screen sizes provides a sig
 
 ### Homepage
 
-[Homepage](assets/images/homepage.png)
+![Homepage](assets/readme/homepage.png)
 
 The homepage provides an immediate sense of what the site is intended for with clear logos, a large full width hero image and links to social channels at the forefront. 
 
 ### Latest Release Section
 
-[Latest Release](assets/images/latest-release.png)
+![Latest Release](assets/readme/latest-release.png)
 
 Delivering business and user goals together the latest release section provides information on the latest release as well as links to relevant streaming platforms and a vinyl store. 
 
@@ -172,25 +172,25 @@ Eye catching artwork is position for user interest.
 
 ### Music
 
-[Music](assets/images/discography.png)
+![Music](assets/readme/discography.png)
 
 Utilising the same design found on the homepage but delivers the entire discography. Users are able to read information, track-lists and follow links to listen all from one page. 
 
 ### Biography 
 
-[Biography](assets/images/bio.png)
+![Biography](assets/readme/bio.png)
 
 Providing insight into the bands history the page is adorned with a large attention grabbing image that is related to the live shows referenced in the biography. 
 
 ### Contact
 
-[Contact](assets/images/contact.png)
+![Contact](assets/readme/contact.png)
 
 This page provides essential service to the band allowing potential clients to contact them directly about bookings for shows and other events.
 
 ### Footer
 
-[Footer](assets/images/footer.png)
+![Footer](assets/readme/footer.png)
 
 Unison across the site and fully responsive the footer provides social links on all devices and at larger sizes a homepage link and sign up button for announcements and releases.
 
@@ -281,15 +281,15 @@ Unison across the site and fully responsive the footer provides social links on 
 
 The entire site has been validated using the W3C Markup and W3C CSS validators. 
 
-[Homepage](assets/images/homepage-val.png)
+[Homepage](assets/readme/homepage-val.png)
 
-[Music](assets/images/music-val.png)
+[Music](assets/readme/music-val.png)
 
-[Biography](assets/images/bio-val.png)
+[Biography](assets/readme/bio-val.png)
 
-[Contact](assets/images/contact-val.png)
+[Contact](assets/readme/contact-val.png)
 
-[CSS](assets/images/css-val.png)
+[CSS](assets/readme/css-val.png)
 
 ### Testing User Stories from User Experience (UX) Section 
 
@@ -393,9 +393,9 @@ Lighthouse
  - Testing using lighthouse took place in chrome with these results link
 After referring to the outcome and suggestions meta titles were added and these new improved results occurred link 
 
-[Lighthouse Test 1](assets/images/lighthouse1.png)
+[Lighthouse Test 1](assets/readme/lighthouse1.png)
 
-[Lighthouse Test 2](assets/images/lighthouse2.png)
+![Lighthouse Test 2](assets/readme/lighthouse2.png)
 
 
 ### Devices
